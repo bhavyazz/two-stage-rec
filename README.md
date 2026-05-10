@@ -2,7 +2,7 @@
 
 A full-stack healthcare application for managing elder care, nutrition planning, pantry inventory, and recipe recommendations with AI-powered ingredient substitution using machine learning.
 
-## 🎯 Features
+##  Features
 
 - **User Authentication**: Secure login with JWT tokens and role-based access control
 - **Elder Management**: Track and manage information about elders in your care
@@ -14,7 +14,7 @@ A full-stack healthcare application for managing elder care, nutrition planning,
 - **Spoonacular Integration**: Access a vast recipe database with detailed nutrition information
 - **Real-time Sync**: Cross-user data isolation with real-time synchronization
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 project1/
@@ -95,7 +95,7 @@ psql -U postgres -d elder_care -f ../sql/create_pantry_table.sql
 psql -U postgres -d elder_care -f ../sql/add_user_id_to_elder.sql
 ```
 
-## 🚀 Running the Application
+##  Running the Application
 
 ### Terminal 1: Frontend (Vite Dev Server)
 
@@ -125,7 +125,7 @@ python infer_service.py
 
 The ML inference service will run on `http://localhost:8000`
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register new user
@@ -156,7 +156,7 @@ The ML inference service will run on `http://localhost:8000`
 ### OCR
 - `POST /api/receipts/ocr` - Extract text from recipe photo
 
-## 🤖 ML Model - Ingredient Substitution
+##  ML Model - Ingredient Substitution
 
 The system uses **LightGBM (Light Gradient Boosting Machine)** for ingredient substitution recommendations.
 
@@ -177,7 +177,7 @@ python infer_service.py
 
 The service provides REST API for real-time ingredient substitution predictions.
 
-## 🔐 Security Features
+##  Security Features
 
 - **JWT Authentication**: Token-based authentication for API requests
 - **Password Hashing**: Passwords stored with bcrypt hashing
@@ -185,7 +185,7 @@ The service provides REST API for real-time ingredient substitution predictions.
 - **Environment Variables**: Sensitive keys stored in `.env`
 - **CORS**: Configured for secure cross-origin requests
 
-## 📊 Technology Stack
+##  Technology Stack
 
 **Frontend:**
 - React with Vite
@@ -201,13 +201,11 @@ The service provides REST API for real-time ingredient substitution predictions.
 - LightGBM for ranking/regression
 - scikit-learn for feature engineering
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 - **Database connection error**: Ensure PostgreSQL is running and `.env` credentials are correct
 - **Port already in use**: Change PORT in `.env` or kill the process using the port
 - **Python venv issues**: Delete `venv/` folder and recreate it
 - **Module not found errors**: Run `npm install` and `pip install -r requirements.txt` again
 
-## 📝 License
 
-This project is part of an elder care initiative.
