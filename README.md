@@ -39,14 +39,14 @@ project1/
 └── sql/                   # Database setup scripts
 ```
 
-## 🛠 Prerequisites
+##  Prerequisites
 
 - **Node.js** (v16 or higher)
 - **Python** (v3.8 or higher)
 - **PostgreSQL** (v12 or higher)
 - **pip** (Python package manager)
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone & Setup Frontend
 
