@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+lightgbm
+scipy
+joblib
+fastapi
+uvicorn
+opencv-python
+pytesseract
+pillow

@@ -1,0 +1,70 @@
+# Node
+node_modules/
+
+# env files
+.env
+**/.env
+server/.env
+.env.local
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# build
+dist/
+build/
+*.o
+
+# misc
+coverage/
+tmp/
+temp/
+*.tmp
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+.tox/
+.pytest_cache/
+pip-log.txt
+
+# API keys and sensitive data
+.apikeys
+secrets.json
+credentials.json
+
+# Markdown documentation files (except README.md)
+COMPREHENSIVE_WRITEUP.md
+COSINE_SIMILARITY_EXPLAINED.md
+DOCUMENTATION_INDEX.md
+FILES_CREATED.md
+IMPLEMENTATION_SUMMARY.md
+INGREDIENT_SUBSTITUTION_CODE_GUIDE.md
+INGREDIENT_SUBSTITUTION.md
+PAPER_RESULTS_DISCUSSION.md
+PERFORMANCE_METRICS_DETAILED_EXPLANATION.md
+SETUP_RECIPES.md
+START_HERE.md
+SUBSTITUTION_GUIDE.md
+UI_UX_GUIDE.md
+USER_ISOLATION_FIX.md
